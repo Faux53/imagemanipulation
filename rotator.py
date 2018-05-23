@@ -1,6 +1,5 @@
 import os
 import argparse
-import imutils
 import cv2
 import numpy as np
 import scipy
@@ -22,3 +21,5 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()"""
 
 save = cv2.imwrite('rotated.jpg', dst)
+
+print('hello')
